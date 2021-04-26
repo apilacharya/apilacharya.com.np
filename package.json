@@ -2,7 +2,6 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "my portfolio website",
-  "main": "index.html",
   "scripts": {
     "dev": "parcel src/index.html",
     "prod": "parcel build src/index.html"
