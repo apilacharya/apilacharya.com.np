@@ -1,10 +1,10 @@
 module.exports = {
+  darkMode: 'media', // or 'media' or 'class'
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
   purge: ["./src/*.html"],
-  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
