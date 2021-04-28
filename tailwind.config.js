@@ -8,14 +8,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ['Roboto'],
-        own: ['Varela Round'],
-        contact: ['Inter']
+        roboto: ['Roboto'],
+        varela: ['Varela Round'],
+        inter: ['Inter']
       },
     },
   },
   variants: {
-    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
     border:['responsive', 'hover', 'focus', 'active'],
     animation:['responsive', 'hover', 'focus', 'active'],
     rotate:['responsive', 'hover', 'focus', 'active'] ,
