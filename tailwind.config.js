@@ -6,6 +6,17 @@ module.exports = {
   },
   purge: ["./src/*.html"],
   theme: {
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'primary': '#0B1428',
+      'secondary': '#BFCCE9',
+      'danger': '#181F3F',
+     }),
+     borderColor: theme => ({
+       ...theme('colors'),
+       'danger': '#181F3F',
+       'garden':'#00E4DB'
+     }),
     extend: {
       fontFamily: {
         roboto: ['Roboto'],

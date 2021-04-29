@@ -4,7 +4,7 @@
 
    Array.from(copyrights).forEach((copyright) => {
     copyright.innerHTML = `
-    <p class="text-center">
+    <p class="text-center dark:text-white">
      © Apil ${new Date().getFullYear()}, Built with Tailwind
     </p>
      `;
