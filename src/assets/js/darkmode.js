@@ -28,11 +28,11 @@ img.addEventListener('click', function () {
   toggle()
 });
 
-if (localStorage.theme === 'dark') {
-  htmlClasses.add('dark');
-  img.src = moon;
-} else {
-  htmlClasses.remove('dark');
+// if (localStorage.theme === 'dark') {
+//   htmlClasses.add('dark');
+//   img.src = moon;
+// } else {
+//   htmlClasses.remove('dark');
 
-  img.src = sun;
-}
+//   img.src = sun;
+// }
